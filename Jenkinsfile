@@ -32,7 +32,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'npm start'
+                sh 'npm run pm2-start'
             }
         }
     }
